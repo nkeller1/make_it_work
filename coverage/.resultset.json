@@ -242,6 +242,8 @@
         "lines": [
           1,
           1,
+          null,
+          1,
           null
         ]
       },
@@ -345,6 +347,57 @@
           null
         ]
       },
+      "/Users/nathankeller/turing/2module/in_challenges/make_it_work/spec/views/contestants/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/nathankeller/turing/2module/in_challenges/make_it_work/spec/views/project/show_spec.rb": {
         "lines": [
           1,
@@ -365,18 +418,10 @@
           1,
           1,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null
         ]
       },
-      "/Users/nathankeller/turing/2module/in_challenges/make_it_work/app/controllers/projects_controller.rb": {
+      "/Users/nathankeller/turing/2module/in_challenges/make_it_work/app/controllers/contestants_controller.rb": {
         "lines": [
           1,
           1,
@@ -390,8 +435,17 @@
           1,
           null
         ]
+      },
+      "/Users/nathankeller/turing/2module/in_challenges/make_it_work/app/controllers/projects_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1581093055
+    "timestamp": 1581095057
   }
 }
