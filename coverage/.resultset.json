@@ -241,7 +241,7 @@
       "/Users/nathankeller/turing/2module/in_challenges/make_it_work/config/routes.rb": {
         "lines": [
           1,
-          null,
+          1,
           null
         ]
       },
@@ -344,8 +344,54 @@
           1,
           null
         ]
+      },
+      "/Users/nathankeller/turing/2module/in_challenges/make_it_work/spec/views/project/show_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/nathankeller/turing/2module/in_challenges/make_it_work/app/controllers/projects_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/nathankeller/turing/2module/in_challenges/make_it_work/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1581091686
+    "timestamp": 1581093055
   }
 }
