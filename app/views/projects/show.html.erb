@@ -7,3 +7,22 @@
 <p>
 <%= "Average Age of Contestants: #{@average_age}"  %>
 </p>
+
+
+<h2> New Contestant Information </h2>
+
+<%= form_tag "/projects/#{@project_id}", method: :post do %>
+  <%= label_tag "name" %>
+  <%= text_field_tag :name %>
+
+  <%= label_tag "age" %>
+  <%= text_field_tag :age %>
+
+  <%= label_tag "hometown" %>
+  <%= text_field_tag :hometown %>
+
+  <%= label_tag "years_of_experience" %>
+  <%= text_field_tag :years_of_experience %>
+
+  <%= submit_tag "Add Contestant To Project"%>
+<% end %>

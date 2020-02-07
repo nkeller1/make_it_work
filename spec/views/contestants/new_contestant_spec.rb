@@ -33,7 +33,7 @@ it "add a new contests" do
   fill_in :years_of_experience, with: 45
 
   click_on "Add Contestant To Project"
-
+  save_and_open_page
   expect(current_path).to eq("/projects/#{project_1.id}")
   expect(page).to have_content("Number of Contestants: #{project_1.contestants.length}")
 
