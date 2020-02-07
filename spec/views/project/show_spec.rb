@@ -69,7 +69,7 @@ RSpec.describe "project show page" do
     contestant_2.projects << [project_1, project_2]
 
     visit "/projects/#{project_1.id}"
-    # require "pry"; binding.pry
+
     expect(page).to have_content("Average Age of Contestants: #{project_1.contestants.average(:age)}")
     expect(page).to_not have_content("Average Age of Contestants: #{project_2.contestants.average(:age)}")
   end
