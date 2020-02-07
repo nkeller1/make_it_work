@@ -1,6 +1,6 @@
 require 'rails_helper'
 RSpec.describe "add new contestant to project" do
-it "add a new contests" do
+xit "add a new contests" do
   contestant_1 = Contestant.create(name: "Sam",
     age: "12",
     hometown: "Aurora",
@@ -31,7 +31,7 @@ it "add a new contests" do
   fill_in :age, with: 34
   fill_in :hometown, with: "Jamica"
   fill_in :years_of_experience, with: 45
-  
+
   click_on "Add Contestant To Project"
 
   expect(current_path).to eq("/projects/#{project_1.id}")
